@@ -1,12 +1,18 @@
 {
-  "name": "test-release",
+  "name": "@zhongkairen/test-release",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "test-release": "src/index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node script/build.js dist",
+    "pack": "cd dist && npm pack",
+    "prepare": "npm run build && npm run pack"
   },
   "keywords": [],
-  "author": "",
+  "author": "Zhongkai Ren",
   "license": "ISC",
   "description": "",
   "devDependencies": {
@@ -15,6 +21,8 @@
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^11.0.1",
     "@semantic-release/release-notes-generator": "^14.0.1",
+    "esbuild": "^0.24.0",
+    "glob": "^11.0.0",
     "semantic-release": "^24.2.0"
   }
 }

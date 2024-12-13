@@ -1,0 +1,38 @@
+name: Make a new release
+
+# When a release branch is merged to main, run the release job
+on:
+  # Trigger the release job when a new_release event is dispatched
+  repository_dispatch:
+    types: [new_release]
+
+  # manual triggering for debugging
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run semantic-release
+        id: semantic_release
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          # for publishing a new release
+          # repo (Full control of private repositories)
+          # write:packages (To publish to GitHub Packages)
+          # read:packages (To install from GitHub Packages)
+          NPM_TOKEN: ${{ secrets.RELEASE_TOKEN }}
