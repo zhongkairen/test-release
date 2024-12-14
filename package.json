@@ -6,6 +6,9 @@
   "bin": {
     "test-release": "src/index.js"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "node script/build.js dist",
     "clean": "rm -rf dist",
