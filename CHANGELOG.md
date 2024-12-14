@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/zhongkairen/test-release/compare/v1.0.0...v1.0.1) (2024-12-14)
+
+
+### Bug Fixes
+
+* prepare release step ([4b79966](https://github.com/zhongkairen/test-release/commit/4b7996687d6d6afc5e56b3ebbde1e679b8dff16d))
+
 # 1.0.0 (2024-12-14)
 
 
