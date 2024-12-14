@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/zhongkairen/test-release/compare/v1.1.0...v1.1.1) (2024-12-14)
+
+
+### Bug Fixes
+
+* package publishing ([7495f07](https://github.com/zhongkairen/test-release/commit/7495f07fcf57863ee1c3b0d9253491149ec01946))
+
 # [1.1.0](https://github.com/zhongkairen/test-release/compare/v1.0.1...v1.1.0) (2024-12-14)
 
 
