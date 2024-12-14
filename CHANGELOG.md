@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/zhongkairen/test-release/compare/v1.0.1...v1.1.0) (2024-12-14)
+
+
+### Features
+
+* change .npmrc with publishConfig in package.json ([fdd6ed0](https://github.com/zhongkairen/test-release/commit/fdd6ed02e703cf4f6d977c16a0d077b6125d49e1))
+
 ## [1.0.1](https://github.com/zhongkairen/test-release/compare/v1.0.0...v1.0.1) (2024-12-14)
 
 
