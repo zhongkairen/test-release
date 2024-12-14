@@ -8,8 +8,10 @@
   },
   "scripts": {
     "build": "node script/build.js dist",
-    "pack": "cd dist && npm pack",
-    "prepare": "npm run build && npm run pack"
+    "clean": "rm -rf dist",
+    "mk-pack": "cd dist && npm pack",
+    "prep-release": "npm run clean && npm run build && npm run mk-pack",
+    "release": "npx semantic-release"
   },
   "keywords": [],
   "author": "Zhongkai Ren",
@@ -18,6 +20,7 @@
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.0",
+    "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^11.0.1",
     "@semantic-release/release-notes-generator": "^14.0.1",
