@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/zhongkairen/test-release/compare/v1.1.5...v1.1.6) (2024-12-14)
+
+
+### Bug Fixes
+
+* version bump for pkg package.json ([3b88772](https://github.com/zhongkairen/test-release/commit/3b88772162eba613f0256b96c26e36e34108ae49))
+
 ## [1.1.5](https://github.com/zhongkairen/test-release/compare/v1.1.4...v1.1.5) (2024-12-14)
 
 
