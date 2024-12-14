@@ -13,8 +13,8 @@
   "scripts": {
     "build": "node script/build.js dist",
     "clean": "rm -rf dist",
-    "mk-pack": "cd dist && npm pack",
-    "prep-release": "npm run clean && npm run build && npm run mk-pack",
+    "mk-pkg": "cd dist && npm pack",
+    "prep-pkg": "npm run clean && npm run build && npm run mk-pkg",
     "release": "npx semantic-release"
   },
   "keywords": [],

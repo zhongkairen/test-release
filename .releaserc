@@ -1,7 +1,4 @@
 {
-  "npm": {
-    "pkgRoot": "./"
-  },
   "branches": [
     "main"
   ],
@@ -32,17 +29,17 @@
     ],
     "@semantic-release/github",
     [
-      "@semantic-release/exec",
-      {
-        "prepare": "npm run prep-release"
-      }
-    ],
-    [
       "@semantic-release/npm",
       {
         "npmPublish": true,
         "pkgRoot": "./",
         "registry": "https://npm.pkg.github.com"
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "prepare": "npm run prep-pkg"
       }
     ]
   ]
