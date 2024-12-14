@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/zhongkairen/test-release/compare/v1.1.1...v1.1.2) (2024-12-14)
+
+
+### Bug Fixes
+
+* target branch, verify conditions and package-lock as asset ([065f9c3](https://github.com/zhongkairen/test-release/commit/065f9c385d58712567608e81122bd5583ebae95e))
+
 ## [1.1.1](https://github.com/zhongkairen/test-release/compare/v1.1.0...v1.1.1) (2024-12-14)
 
 
