@@ -1,6 +1,6 @@
 {
   "name": "@zhongkairen/test-release",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "main": "index.js",
   "type": "module",
   "bin": {
