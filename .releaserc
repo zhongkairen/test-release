@@ -1,6 +1,6 @@
 {
   "npm": {
-    "pkgRoot": "dist"
+    "pkgRoot": "./"
   },
   "branches": [
     "main"
@@ -37,7 +37,6 @@
         "prepare": "npm run prep-release"
       }
     ],
-    "@semantic-release/version",
     [
       "@semantic-release/npm",
       {
