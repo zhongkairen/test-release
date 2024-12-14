@@ -26,8 +26,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Set up npm for GitHub Packages
-        run: npm config set //npm.pkg.github.com/:_authToken ${{ secrets.RELEASE_TOKEN }}
+      - name: Authenticate with GitHub Packages
+        run: |
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.RELEASE_TOKEN }}" > ~/.npmrc
+          echo "registry=https://npm.pkg.github.com" >> ~/.npmrc
 
       - name: Run semantic-release
         id: semantic_release

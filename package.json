@@ -7,7 +7,8 @@
     "test-release": "src/index.js"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   },
   "scripts": {
     "build": "node script/build.js dist",
