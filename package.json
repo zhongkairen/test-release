@@ -15,7 +15,7 @@
     "clean": "rm -rf dist",
     "mk-pkg": "cd dist && npm pack",
     "prep-pkg": "npm run clean && npm run build && npm run mk-pkg",
-    "release": "DEBUG=semantic-release* npm run release --no-ci --debug --force"
+    "release": "DEBUG=semantic-release* npx semantic-release --no-ci --debug --force"
   },
   "keywords": [],
   "author": "Zhongkai Ren",

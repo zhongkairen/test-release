@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/zhongkairen/test-release/compare/v1.1.7...v1.1.8) (2024-12-14)
+
+
+### Bug Fixes
+
+* bump ([43c80a0](https://github.com/zhongkairen/test-release/commit/43c80a0949c841d68b456e4d029de54ddba57143))
+
 ## [1.1.7](https://github.com/zhongkairen/test-release/compare/v1.1.6...v1.1.7) (2024-12-14)
 
 
