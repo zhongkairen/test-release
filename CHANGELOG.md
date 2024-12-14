@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/zhongkairen/test-release/compare/v1.1.4...v1.1.5) (2024-12-14)
+
+
+### Bug Fixes
+
+* pkg root ([8212b18](https://github.com/zhongkairen/test-release/commit/8212b18f355c53c2d899461f38aee1b94156ef48))
+
 ## [1.1.4](https://github.com/zhongkairen/test-release/compare/v1.1.3...v1.1.4) (2024-12-14)
 
 
