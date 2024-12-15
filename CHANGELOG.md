@@ -1,3 +1,10 @@
+## [1.1.14](https://github.com/zhongkairen/test-release/compare/v1.1.13...v1.1.14) (2024-12-15)
+
+
+### Bug Fixes
+
+* semantic-release debug ([fd6bcae](https://github.com/zhongkairen/test-release/commit/fd6bcae9102bd82bcf0c8bbb862146e7000315b6))
+
 ## [1.1.13](https://github.com/zhongkairen/test-release/compare/v1.1.12...v1.1.13) (2024-12-15)
 
 
