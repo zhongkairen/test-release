@@ -9,6 +9,10 @@ on:
   # manual triggering for debugging
   workflow_dispatch:
 
+  push:
+    branches:
+      - ci/*
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -33,7 +37,10 @@ jobs:
 
       - name: Run semantic-release
         id: semantic_release
-        run: npx semantic-release
+        run: |
+          echo "First characters of NPM_TOKEN: ${NPM_TOKEN:0:6}"
+          echo "Last characters of NPM_TOKEN: ${NPM_TOKEN: -5}"
+          npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
           # for publishing a new release
