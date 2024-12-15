@@ -9,6 +9,16 @@ on:
   # manual triggering for debugging
   workflow_dispatch:
 
+permissions:
+  contents: write # For pushing code to the repository (e.g., commit and tag)
+  packages: write # To publish to GitHub Packages
+  issues: write # If you need to create issues for release notes (optional)
+  pull-requests: write # If you want to manage pull requests (optional)
+
+env:
+  GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }} # Used for GitHub API interactions
+  NPM_TOKEN: ${{ secrets.RELEASE_TOKEN }} # Used for publishing to GitHub Packages
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -28,16 +38,10 @@ jobs:
 
       - name: Authenticate with GitHub Packages
         run: |
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.RELEASE_TOKEN }}" > ~/.npmrc
+          echo "//npm.pkg.github.com/:_authToken=${{ env.NPM_TOKEN }}" > ~/.npmrc
           echo "registry=https://npm.pkg.github.com" >> ~/.npmrc
 
       - name: Run semantic-release
         id: semantic_release
         run: npx semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-          # for publishing a new release
-          # repo (Full control of private repositories)
-          # write:packages (To publish to GitHub Packages)
-          # read:packages (To install from GitHub Packages)
-          NPM_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+\
