@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/zhongkairen/test-release/compare/v1.1.12...v1.1.13) (2024-12-15)
+
+
+### Bug Fixes
+
+* wf permissions ([1bc9826](https://github.com/zhongkairen/test-release/commit/1bc9826cdeae2d63d68f886e03285b741372a783))
+
 ## [1.1.12](https://github.com/zhongkairen/test-release/compare/v1.1.11...v1.1.12) (2024-12-15)
 
 
