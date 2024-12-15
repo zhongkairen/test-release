@@ -6,6 +6,10 @@
   "bin": {
     "test-release": "src/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhongkairen/test-release.git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
     "access": "public"
