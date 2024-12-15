@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/zhongkairen/test-release/compare/v1.1.10...v1.1.11) (2024-12-15)
+
+
+### Bug Fixes
+
+* remove debug for semantic rel ([62a3665](https://github.com/zhongkairen/test-release/commit/62a3665c43fdcb30964cec82ce91eea3e60e12c0))
+
 ## [1.1.10](https://github.com/zhongkairen/test-release/compare/v1.1.9...v1.1.10) (2024-12-15)
 
 
