@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/zhongkairen/test-release/compare/v1.2.0...v1.2.1) (2024-12-15)
+
+
+### Bug Fixes
+
+* package suorce repository ([c08debf](https://github.com/zhongkairen/test-release/commit/c08debf11cc7dbd4b364cf01adfdb269e9f9d939))
+
 # [1.2.0](https://github.com/zhongkairen/test-release/compare/v1.1.13...v1.2.0) (2024-12-15)
 
 
