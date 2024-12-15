@@ -1,3 +1,11 @@
+## [1.1.12](https://github.com/zhongkairen/test-release/compare/v1.1.11...v1.1.12) (2024-12-15)
+
+
+### Bug Fixes
+
+* bump ([13a4171](https://github.com/zhongkairen/test-release/commit/13a41717ad779dee0bceab546ea37bc1828c690a))
+* package version commit, reorder ([ea3bf5f](https://github.com/zhongkairen/test-release/commit/ea3bf5f7bee1f479e08cb06dc29d491e8060c5bf))
+
 ## [1.1.11](https://github.com/zhongkairen/test-release/compare/v1.1.10...v1.1.11) (2024-12-15)
 
 
