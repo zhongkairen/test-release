@@ -6,3 +6,4 @@ dist/
 .secrets
 .env
 .tmp/
+*.log
