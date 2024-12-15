@@ -21,7 +21,10 @@ env:
 
 jobs:
   release:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    # Rollout will begin on December 5th and will complete on January 17th, 2025.
+    # ubuntu-22.04 -> ubuntu-24.04
+    #runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
