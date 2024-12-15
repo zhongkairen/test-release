@@ -44,7 +44,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
           # for publishing a new release
-          # repo (Full control of private repositories)
-          # write:packages (To publish to GitHub Packages)
-          # read:packages (To install from GitHub Packages)
+          # - repo (Full control of private repositories)
+          # - write:packages (To publish to GitHub Packages)
+          # - read:packages (To install from GitHub Packages)
+          # - workflow (To trigger workflows via the GitHub API)
           NPM_TOKEN: ${{ secrets.RELEASE_TOKEN }}
