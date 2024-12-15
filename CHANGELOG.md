@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/zhongkairen/test-release/compare/v1.1.13...v1.2.0) (2024-12-15)
+
+
+### Bug Fixes
+
+* release workflow os version ([62ea07b](https://github.com/zhongkairen/test-release/commit/62ea07b17da64366e165390c1425efbb862db640))
+* semantic-release debug ([fd6bcae](https://github.com/zhongkairen/test-release/commit/fd6bcae9102bd82bcf0c8bbb862146e7000315b6))
+
+
+### Features
+
+* remove force from release command ([22bf93d](https://github.com/zhongkairen/test-release/commit/22bf93ddd73c9dee7cb5aa899bd7e7675acbbf92))
+
 ## [1.1.13](https://github.com/zhongkairen/test-release/compare/v1.1.12...v1.1.13) (2024-12-15)
 
 
