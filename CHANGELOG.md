@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/zhongkairen/test-release/compare/v1.2.1...v1.2.2) (2024-12-17)
+
+
+### Bug Fixes
+
+* app start async ([44b1773](https://github.com/zhongkairen/test-release/commit/44b17739bdc619f9ef747418a9218ee616915ff1))
+
 ## [1.2.1](https://github.com/zhongkairen/test-release/compare/v1.2.0...v1.2.1) (2024-12-15)
 
 
