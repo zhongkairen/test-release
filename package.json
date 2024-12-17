@@ -15,10 +15,6 @@
     "access": "public"
   },
   "scripts": {
-    "build": "node script/build.js dist",
-    "clean": "rm -rf dist",
-    "mk-pkg": "cd dist && npm pack",
-    "prep-pkg": "npm run clean && npm run build && npm run mk-pkg",
     "release": "npx semantic-release --no-ci --debug"
   },
   "keywords": [],
@@ -28,7 +24,6 @@
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.0",
-    "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^11.0.1",
     "@semantic-release/release-notes-generator": "^14.0.1",

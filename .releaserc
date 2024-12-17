@@ -24,12 +24,6 @@
       }
     ],
     [
-      "@semantic-release/exec",
-      {
-        "prepare": "npm run prep-pkg"
-      }
-    ],
-    [
       "@semantic-release/git",
       {
         "assets": [
