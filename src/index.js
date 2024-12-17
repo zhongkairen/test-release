@@ -5,11 +5,11 @@ class Main {
     console.log("Main constructor");
   }
 
-  start() {
+  async start() {
     // Start the main application
     console.log("Main start");
   }
 }
 
 const app = new Main();
-app.start();
+await app.start();
