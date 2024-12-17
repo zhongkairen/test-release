@@ -6,7 +6,6 @@ class Main {
   }
 
   async start() {
-    // Start the main application
     console.log("Main start");
   }
 }
