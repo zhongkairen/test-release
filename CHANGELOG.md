@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/zhongkairen/test-release/compare/v1.2.2...v1.2.3) (2024-12-17)
+
+
+### Bug Fixes
+
+* main start ([9cf9a14](https://github.com/zhongkairen/test-release/commit/9cf9a146d65909593d92d8d76869df69cd28af35))
+
 ## [1.2.2](https://github.com/zhongkairen/test-release/compare/v1.2.1...v1.2.2) (2024-12-17)
 
 
